@@ -1,8 +1,9 @@
 package com.companyname.aliciaspringboot.service;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class helloWorld {
-    public static void main(String[] args) {
-    }
 
     public String helloWorld() {
         return "Hello World!";
